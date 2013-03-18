@@ -1,4 +1,3 @@
-
 import sys, os
 
 def makegisjoin(block2010):
@@ -28,8 +27,6 @@ def main():
     indir = sys.argv[1]
     outdir = sys.argv[2]
     run(indir, outdir)
-  
-    
     
 if __name__ == '__main__':
     main()
