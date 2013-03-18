@@ -1,7 +1,7 @@
 import sys, os
 
 def makegisjoin(block2010):
-    return 'G0' + block2010[:2] + '0' + block2010[2:]
+    return 'G' + block2010[:2] + '0' + block2010[2:5] + '0' +block2010[5:]
 
 def processfile(infile, outdir):
     f = open(infile)
