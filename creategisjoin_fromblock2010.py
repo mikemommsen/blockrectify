@@ -11,7 +11,7 @@ def processfile(infile, outdir):
     for r in f:
         block2010, gradejoin = r.strip().split()
         blockgisjoin = makegisjoin(block2010)
-        g.write('{0},{1},{2}'.format(block2010, gradejoin, blockgisjoin))
+        g.write('{0},{1},{2}\n'.format(block2010, gradejoin, blockgisjoin))
     f.close()
     g.close()
 
